@@ -10,8 +10,8 @@ var partials = require('express-partials');
 var pretty = require('express-prettify');
 app.use(pretty({ query: 'pretty' }));
 
-var GITHUB_CLIENT_ID = "22547ded1277b051f52e";
-var GITHUB_CLIENT_SECRET = "fd9e30b64e49b0b244880028b6bb74eaf3be6b1e";
+var GITHUB_CLIENT_ID = "--Your Client ID--";
+var GITHUB_CLIENT_SECRET = "--Your Client Secret--";
 
 passport.serializeUser(function(user, done) {
   done(null, user);
